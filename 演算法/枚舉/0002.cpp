@@ -1,6 +1,10 @@
 /*    Flip Game
  *    URL : http://poj.org/problem?id=1753
  *
+ *    Language: G++/C++
+ *    *有scanf()就要用C++,不能用G++,不然在POJ上會Compile Error
+ *    *在C++上有Runtime Error,但是local卻不會有,可以換成G++試試看
+ *
  *    1. 將input轉成0/1然後儲存在一個int裡面,每一個bit代表每一個輸入的狀態
  *       例如: bwwb                 0110                              0  1  2  3
  *             bbwb   轉成0/1 ===>  0010   對應到int每個位元位置  ===> 4  5  6  7
@@ -17,7 +21,6 @@
 #include <iostream>
 using namespace std;
 
-#define NUMS 10
 
 int main()
 {

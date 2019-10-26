@@ -1,12 +1,16 @@
 /*    Largest Rectangle in a Histogram
  *    URL : http://poj.org/problem?id=2559
+ *
+ *    Language: C++
+ *    *有scanf()就要用C++,不能用G++,不然在POJ上會Compile Error
+ *    *在C++上有Runtime Error,但是local卻不會有,可以換成G++試試看
  */
 
 #include <iostream>
 #include <cstring>
 using namespace std;
 
-#define NUMS 10
+#define NUMS 100000
 typedef long long LL;
 
 int main()
